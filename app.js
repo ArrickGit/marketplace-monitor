@@ -2,7 +2,9 @@ const money = n => `SGD ${Number.isInteger(n) ? n : n.toFixed(2)}`;
 const charts = {};
 async function init(){
   const data=await fetch('data/marketplace.json').then(r=>r.json());
-  document.querySelector('#last-updated').textContent=new Date(data.updatedAt).toLocaleString('en-SG',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',hour12:false});
+  const updated=new Date(data.updatedAt).toLocaleString('en-SG',{day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'Asia/Singapore'});
+  document.querySelector('#last-updated').textContent=updated;
+  document.querySelector('#nav-updated').textContent=updated;
   renderSummary(data.items); renderCards(data.items);
   document.querySelectorAll('[data-range]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-range]').forEach(x=>x.classList.remove('active'));b.classList.add('active');renderCards(data.items.filter(i=>b.dataset.range==='all'||i.direction===b.dataset.range));});
 }
