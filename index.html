@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b1020" />
+    <title>Marketplace Monitor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="noise"></div>
+    <main class="shell">
+      <nav class="nav"><div class="brand"><span class="brand-mark">↗</span><span>marketplace<span class="muted">/monitor</span></span></div><span class="live"><i></i> SGD MARKET DATA</span></nav>
+      <header class="hero"><div><p class="eyebrow">PRICE INTELLIGENCE · SINGAPORE</p><h1>Know where the<br /><em>market is going.</em></h1><p class="lede">A clear view of item prices, momentum, and the next likely move across monitored marketplaces.</p></div><div class="updated"><span>LAST DATA REFRESH</span><strong id="last-updated">—</strong><small>Singapore time · rolling observations</small></div></header>
+      <section class="summary" id="summary"></section>
+      <section class="toolbar"><div><p class="eyebrow">MONITORED ITEMS</p><h2>Market trajectories</h2></div><div class="controls"><button class="active" data-range="all">All items</button><button data-range="buy">Buy side</button><button data-range="sell">Sell side</button></div></section>
+      <section class="cards" id="cards"></section>
+      <footer><span>Marketplace Monitor</span><span>Signals are indicative, not financial advice.</span></footer>
+    </main>
+  </body>
+</html>
