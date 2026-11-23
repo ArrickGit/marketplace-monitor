@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T23:30:00+08:00",
+  "updatedAt": "2026-11-23T23:30:00+08:00",
   "currency": "SGD",
   "windowHours": 6,
   "items": [
@@ -9,9 +9,9 @@
       "channel": "mesos-market",
       "direction": "buy",
       "unit": "per billion",
-      "current": 2.2,
-      "previous": 2.27,
-      "forecast": 2.13,
+      "current": 2.1,
+      "previous": 2.2,
+      "forecast": 2,
       "trend": "softening",
       "points": [
         [
@@ -437,6 +437,10 @@
         [
           "11-22 23:30",
           2.2
+        ],
+        [
+          "11-23 23:30",
+          2.1
         ]
       ]
     },
@@ -447,9 +451,9 @@
       "direction": "sell",
       "unit": "each",
       "current": 20.4,
-      "previous": 15,
-      "forecast": 25.8,
-      "trend": "strengthening",
+      "previous": 20.4,
+      "forecast": 20.4,
+      "trend": "stable",
       "points": [
         [
           "08-08 02:21",
@@ -861,6 +865,10 @@
         ],
         [
           "11-22 23:30",
+          20.4
+        ],
+        [
+          "11-23 23:30",
           20.4
         ]
       ]
@@ -1274,6 +1282,10 @@
         ],
         [
           "11-22 23:30",
+          120
+        ],
+        [
+          "11-23 23:30",
           120
         ]
       ]
@@ -1712,6 +1724,10 @@
         [
           "11-22 23:30",
           6
+        ],
+        [
+          "11-23 23:30",
+          6
         ]
       ]
     },
@@ -1721,10 +1737,10 @@
       "channel": "gacha-apple",
       "direction": "sell",
       "unit": "each",
-      "current": 101.25,
+      "current": 105,
       "previous": 101.25,
-      "forecast": 101.25,
-      "trend": "stable",
+      "forecast": 108.75,
+      "trend": "strengthening",
       "points": [
         [
           "08-08 07:12",
@@ -2145,6 +2161,10 @@
         [
           "11-22 23:30",
           101.25
+        ],
+        [
+          "11-23 23:30",
+          105
         ]
       ]
     }
