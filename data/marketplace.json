@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T23:30:00+08:00",
+  "updatedAt": "2026-11-24T23:30:00+08:00",
   "currency": "SGD",
   "windowHours": 6,
   "items": [
@@ -10,9 +10,9 @@
       "direction": "buy",
       "unit": "per billion",
       "current": 2.1,
-      "previous": 2.2,
-      "forecast": 2,
-      "trend": "softening",
+      "previous": 2.1,
+      "forecast": 2.1,
+      "trend": "stable",
       "points": [
         [
           "08-08 04:19",
@@ -440,6 +440,10 @@
         ],
         [
           "11-23 23:30",
+          2.1
+        ],
+        [
+          "11-24 23:30",
           2.1
         ]
       ]
@@ -870,6 +874,10 @@
         [
           "11-23 23:30",
           20.4
+        ],
+        [
+          "11-24 23:30",
+          20.4
         ]
       ]
     },
@@ -1287,6 +1295,10 @@
         [
           "11-23 23:30",
           120
+        ],
+        [
+          "11-24 23:30",
+          120
         ]
       ]
     },
@@ -1296,10 +1308,10 @@
       "channel": "gacha-apple",
       "direction": "sell",
       "unit": "each",
-      "current": 6,
+      "current": 5.6666666667,
       "previous": 6,
-      "forecast": 6,
-      "trend": "stable",
+      "forecast": 5.3333333334,
+      "trend": "softening",
       "points": [
         [
           "08-08 06:36",
@@ -1728,6 +1740,10 @@
         [
           "11-23 23:30",
           6
+        ],
+        [
+          "11-24 23:30",
+          5.6666666667
         ]
       ]
     },
@@ -1737,10 +1753,10 @@
       "channel": "gacha-apple",
       "direction": "sell",
       "unit": "each",
-      "current": 105,
-      "previous": 101.25,
-      "forecast": 108.75,
-      "trend": "strengthening",
+      "current": 99.6,
+      "previous": 105,
+      "forecast": 94.2,
+      "trend": "softening",
       "points": [
         [
           "08-08 07:12",
@@ -2165,6 +2181,10 @@
         [
           "11-23 23:30",
           105
+        ],
+        [
+          "11-24 23:30",
+          99.6
         ]
       ]
     }
