@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T23:30:00+08:00",
+  "updatedAt": "2026-11-26T23:30:00+08:00",
   "currency": "SGD",
   "windowHours": 6,
   "items": [
@@ -9,10 +9,10 @@
       "channel": "mesos-market",
       "direction": "buy",
       "unit": "per billion",
-      "current": 2.1,
+      "current": 2,
       "previous": 2.1,
-      "forecast": 2.1,
-      "trend": "stable",
+      "forecast": 1.9,
+      "trend": "softening",
       "points": [
         [
           "08-08 04:19",
@@ -449,6 +449,10 @@
         [
           "11-25 23:30",
           2.1
+        ],
+        [
+          "11-26 23:30",
+          2
         ]
       ]
     },
@@ -886,6 +890,10 @@
         [
           "11-25 23:30",
           20.4
+        ],
+        [
+          "11-26 23:30",
+          20.4
         ]
       ]
     },
@@ -1311,6 +1319,10 @@
         [
           "11-25 23:30",
           120
+        ],
+        [
+          "11-26 23:30",
+          120
         ]
       ]
     },
@@ -1321,9 +1333,9 @@
       "direction": "sell",
       "unit": "each",
       "current": 6,
-      "previous": 5.6666666667,
-      "forecast": 6.3333333333,
-      "trend": "rising",
+      "previous": 6,
+      "forecast": 6,
+      "trend": "stable",
       "points": [
         [
           "08-08 06:36",
@@ -1760,6 +1772,10 @@
         [
           "11-25 23:30",
           6
+        ],
+        [
+          "11-26 23:30",
+          6
         ]
       ]
     },
@@ -1770,9 +1786,9 @@
       "direction": "sell",
       "unit": "each",
       "current": 100,
-      "previous": 99.6,
-      "forecast": 100.4,
-      "trend": "rising",
+      "previous": 100,
+      "forecast": 100,
+      "trend": "stable",
       "points": [
         [
           "08-08 07:12",
@@ -2204,6 +2220,10 @@
         ],
         [
           "11-25 23:30",
+          100
+        ],
+        [
+          "11-26 23:30",
           100
         ]
       ]
