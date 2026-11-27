@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T23:30:00+08:00",
+  "updatedAt": "2026-11-27T23:30:00+08:00",
   "currency": "SGD",
   "windowHours": 6,
   "items": [
@@ -9,10 +9,10 @@
       "channel": "mesos-market",
       "direction": "buy",
       "unit": "per billion",
-      "current": 2,
-      "previous": 2.1,
-      "forecast": 1.9,
-      "trend": "softening",
+      "current": 2.1166666667,
+      "previous": 2,
+      "forecast": 2.2333333334,
+      "trend": "strengthening",
       "points": [
         [
           "08-08 04:19",
@@ -453,6 +453,10 @@
         [
           "11-26 23:30",
           2
+        ],
+        [
+          "11-27 23:30",
+          2.1166666667
         ]
       ]
     },
@@ -462,10 +466,10 @@
       "channel": "junk-0-to-18-star-equipments",
       "direction": "sell",
       "unit": "each",
-      "current": 20.4,
+      "current": 17.5,
       "previous": 20.4,
-      "forecast": 20.4,
-      "trend": "stable",
+      "forecast": 14.6,
+      "trend": "softening",
       "points": [
         [
           "08-08 02:21",
@@ -894,6 +898,10 @@
         [
           "11-26 23:30",
           20.4
+        ],
+        [
+          "11-27 23:30",
+          17.5
         ]
       ]
     },
@@ -1322,6 +1330,10 @@
         ],
         [
           "11-26 23:30",
+          120
+        ],
+        [
+          "11-27 23:30",
           120
         ]
       ]
@@ -1776,6 +1788,10 @@
         [
           "11-26 23:30",
           6
+        ],
+        [
+          "11-27 23:30",
+          6
         ]
       ]
     },
@@ -1785,10 +1801,10 @@
       "channel": "gacha-apple",
       "direction": "sell",
       "unit": "each",
-      "current": 100,
+      "current": 105,
       "previous": 100,
-      "forecast": 100,
-      "trend": "stable",
+      "forecast": 110,
+      "trend": "strengthening",
       "points": [
         [
           "08-08 07:12",
@@ -2225,6 +2241,10 @@
         [
           "11-26 23:30",
           100
+        ],
+        [
+          "11-27 23:30",
+          105
         ]
       ]
     }
